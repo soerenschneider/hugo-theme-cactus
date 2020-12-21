@@ -335,14 +335,14 @@ body .h2 {
   display: block;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
-  color: #eee;
+  color: #2bbc8a;
   text-transform: none;
   letter-spacing: normal;
   font-weight: bold;
   font-size: 1rem;
 }
 body h3 {
-  color: #eee;
+  color: #2bbc8a;
   text-decoration: underline;
   font-weight: bold;
   font-size: 0.9rem;
@@ -838,7 +838,6 @@ body {
 }
 #header-post #toc nav > ul > li:before {
   color: #2bbc8a;
-  content: "#";
   margin-right: 8px;
 }
 #header-post #toc nav > ul > li > ul > li {
@@ -1098,7 +1097,6 @@ article .content h2:before {
   top: -4px;
   left: -1rem;
   color: #2bbc8a;
-  content: "#";
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -1206,10 +1204,6 @@ article .content .caption {
   .article-tag,
   .article-category {
     display: inline;
-  }
-  .article-tag:before,
-  .article-category:before {
-    content: "|";
   }
 }
 #archive .post-list {
